@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 라디오버튼 해제상태 -->
+    <item android:drawable="@drawable/img_customize_click_uncheck" android:state_checked="false" />
+    <!-- 라디오버튼 선택상태 -->
+    <item android:drawable="@drawable/img_customize_click_check" android:state_checked="true" />
+    <!-- default state -->
+    <item android:drawable="@drawable/img_customize_click_uncheck" />
+</selector>
