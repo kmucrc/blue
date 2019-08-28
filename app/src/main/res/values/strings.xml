@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">blue</string>
+
+
+    // Help Review
+    <string name="str_connection_title">CONNECTION</string>
+
+    // Notification
+    <string name="str_notification_title">NOTIFICATION</string>
+
+    // Click
+    <string name="str_click_title">CLICK</string>
+    <string name="str_contact_list_title">CONTACT LIST</string>
+    <string name="str_list_title">LIST</string>
+
+    // Prefrences
+    <string name="str_pref_title">PREFERENCES</string>
+
+    // Help Review
+    <string name="str_help_title">HELP &amp; REVIEW</string>
+
+    // Shortcut Call
+    <string name="str_currently_unavailable">현재는 사용할 수 없는 기능입니다.</string>
+
+    // Common
+    <string name="str_vib_title">VIBRATION</string>
+    <string name="str_click_once">CLICK 1</string>
+    <string name="str_click_twice">CLICK 2</string>
+    <string name="str_click_hold">HOLD</string>
+
+
 </resources>
