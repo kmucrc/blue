@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/tv_emergency_title" android:layout_weight="1"
                 android:gravity="center" android:background="@color/colorF78592" android:textColor="@color/colorWhite"
-                android:textSize="18sp"/>
+                android:textSize="18sp" android:fontFamily="@font/tcceb"/>
     </LinearLayout>
     <RadioGroup
             android:layout_width="0dp"
@@ -61,6 +61,7 @@
                 android:layout_width="50dp"
                 android:layout_height="26dp"
                 android:id="@+id/tv_emergency_click_once"
+                android:fontFamily="@font/tcceb"
                 app:layout_constraintEnd_toStartOf="@+id/tv_emergency_click_twice"
                 android:textColor="@color/colorBlack" app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginEnd="19dp"/>
@@ -71,6 +72,7 @@
                 android:id="@+id/tv_emergency_click_twice"
                 app:layout_constraintEnd_toStartOf="@+id/tv_emergency_click_hold" android:layout_marginEnd="19dp"
                 android:textColor="@color/colorBlack" app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="@font/tcceb"
         />
         <TextView
                 android:layout_width="50dp"
@@ -79,7 +81,7 @@
                 android:text="@string/str_click_hold"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="19dp" android:textColor="@color/colorBlack"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" android:fontFamily="@font/tcceb"/>
         <ImageView
                 android:layout_width="115dp"
                 android:layout_height="50dp" app:srcCompat="@drawable/img_emergency_emergency"
@@ -139,7 +141,7 @@
                     android:layout_weight="1"
                     android:gravity="center" android:background="@color/colorF78592"
                     android:textColor="@color/colorBlack"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" android:fontFamily="@font/tcceb"/>
         </LinearLayout>
 
         <ImageView
