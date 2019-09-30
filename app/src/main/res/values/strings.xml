@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">blue</string>
 
+    // Connection
+    <string name="str_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="str_bluetooth_unknown_characteristic">Unknown characteristic</string>
+    <string name="str_bluetooth_unknown_service">Unknown service</string>
 
     // Help Review
     <string name="str_connection_title">CONNECTION</string>
@@ -27,6 +31,7 @@
     <string name="str_click_once">CLICK 1</string>
     <string name="str_click_twice">CLICK 2</string>
     <string name="str_click_hold">HOLD</string>
+    <string name="str_common_unknown">UNKNOWN</string>
 
 
 </resources>

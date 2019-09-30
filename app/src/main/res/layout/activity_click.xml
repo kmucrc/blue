@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" android:id="@+id/tv_click_title" android:layout_weight="1"
                 android:gravity="center" android:background="@color/colorFCEE21" android:textColor="@color/colorWhite"
-                android:textSize="18sp"/>
+                android:textSize="18sp" android:fontFamily="@font/tcceb"/>
     </LinearLayout>
     <Button
             android:layout_width="180dp"
